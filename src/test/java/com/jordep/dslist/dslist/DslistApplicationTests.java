@@ -1,4 +1,4 @@
-package com.jordep.dslist;
+package com.jordep.dslist.dslist;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
