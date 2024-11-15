@@ -10,10 +10,6 @@ import jakarta.persistence.*;
 //import jakarta.persistence.Table;
 
 
-
-// Cria a classe Game que será a entidade do banco de dados, com os atributos e métodos, getters e setters.
-// A classe Game é uma entidade que será mapeada para o banco de dados.
-
 @Entity // (entidade) configura para ser equivalente a uma tabela no SQL
 @Table(name = "tb_game")
 public class Game {
@@ -21,7 +17,6 @@ public class Game {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String title;
 
     @Column(name = "game_year") // altera o nome no bando de dados

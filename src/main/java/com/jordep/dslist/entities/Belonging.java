@@ -42,8 +42,8 @@ public class Belonging {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Belonging belonging = (Belonging) o;
-        return Objects.equals(id, belonging.id); // (id, other.id)
+        Belonging other = (Belonging) o;
+        return Objects.equals(id, other.id); // (id, other.id)
     }
 
     @Override
