@@ -2,8 +2,10 @@ package com.jordep.dslist.dto;
 
 import com.jordep.dslist.entities.Game;
 
-// DTO para mostrar somente as informações necessárias.
 // DTO tem como característica somente dados necessários, imutaveis, geralmente sem lógica de negócios.
+// DTO para mostrar somente as informações necessárias.
+
+// GameMinDTO é um DTO para resumir o Game, como se fosse uma capa.
 
 public class GameMinDTO {
 
