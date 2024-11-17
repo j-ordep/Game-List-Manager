@@ -1,6 +1,7 @@
 package com.jordep.dslist.dto;
 
 import com.jordep.dslist.entities.Game;
+import com.jordep.dslist.projections.GameMinProjection;
 
 // DTO tem como característica somente dados necessários, imutaveis, geralmente sem lógica de negócios.
 // DTO para mostrar somente as informações necessárias.
@@ -25,6 +26,15 @@ public class GameMinDTO {
         imgUrl = entity.getImgUrl();
         shortDescription = entity.getShortDescription();
     }
+
+    public GameMinDTO(GameMinProjection projection) {
+        id = projection.getId();
+        title = projection.getTitle();
+        year = projection.getYear();
+        imgUrl = projection.getImgUrl();
+        shortDescription = projection.getShortDescription();
+    }
+
 
     public Long getId() {
         return id;

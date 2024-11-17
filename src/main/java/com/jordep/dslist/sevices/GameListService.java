@@ -2,7 +2,6 @@ package com.jordep.dslist.sevices;
 
 import com.jordep.dslist.dto.GameListDTO;
 import com.jordep.dslist.dto.GameMinDTO;
-import com.jordep.dslist.entities.Game;
 import com.jordep.dslist.entities.GameList;
 import com.jordep.dslist.repositories.GameListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,4 +22,6 @@ public class GameListService {
         List<GameList> result = gameListRepository.findAll();
         return result.stream().map(x -> new GameListDTO(x)).toList();
     }
+
+
 }
