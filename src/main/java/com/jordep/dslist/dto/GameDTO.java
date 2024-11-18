@@ -17,7 +17,7 @@ public class GameDTO {
     private String longDescription;
 
     public GameDTO(Game entity) {
-        BeanUtils.copyProperties(entity, this);
+        BeanUtils.copyProperties(entity, this); // copia os atributos de Game entity
     }
 
     public Long getId() {
