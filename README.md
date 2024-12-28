@@ -36,7 +36,7 @@ O Game List Manager é um sistema CRUD desenvolvido para gerenciar listas person
 
     - listId (o ID da lista)
  
-- Arquitetura limpa com entidadescom separação clara de responsabilidades:
+- Arquitetura MVC:
   - *Controller*: Exposição das APIs REST.
   - *Service*: Contém a lógica de negócios.
   - *Repository*: Comunicação com o banco de dados.
