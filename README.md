@@ -24,7 +24,7 @@ O Game List Manager é um sistema CRUD desenvolvido para gerenciar listas person
 
 ## Camadas estruturadas:
 
-## Estrutura do Domínio / Observações 
+### Estrutura do Domínio / Observações 
 
 - APIs RESTful para criar, consultar e atualizar jogos e listas.
 
