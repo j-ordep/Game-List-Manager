@@ -3,12 +3,6 @@ package com.jordep.dslist.entities;
 import java.util.Objects;
 
 import jakarta.persistence.*;
-//import jakarta.persistence.Column;
-//import jakarta.persistence.Entity;
-//import jakarta.persistence.GeneratedValue;
-//import jakarta.persistence.GenerationType;
-//import jakarta.persistence.Id;
-//import jakarta.persistence.Table;
 
 
 @Entity // (entidade) configura para ser equivalente a uma tabela no SQL
@@ -120,6 +114,7 @@ public class Game {
     public void setLongDescription(String longDescription) {
         this.longDescription = longDescription;
     }
+
 
     @Override
     public int hashCode() {
